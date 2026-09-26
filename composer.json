@@ -1,0 +1,22 @@
+{
+    "name": "hashira/intermediate-caching-proxy",
+    "require": {
+        "predis/predis": "^3.6",
+        "guzzlehttp/guzzle": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "App\\": "app/",
+            "Controllers\\": "controllers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DeathHashira",
+            "email": "shabanid.zahra@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
