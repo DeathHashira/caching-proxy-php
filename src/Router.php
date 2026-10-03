@@ -2,9 +2,6 @@
 
 namespace Src;
 
-use App\Http\Response;
-use GuzzleHttp\Client;
-use Psr\Http\Message\ResponseInterface;
 
 class Router
 {
